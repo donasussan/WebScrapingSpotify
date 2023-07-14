@@ -3,8 +3,7 @@ from bs4 import BeautifulSoup
 import pprint
 
 
-Client_id = "5d7ce04406e04317aa78a381994cd8c8"
-Client_secret = "5c3370f32db14c32a2c8fb88a27bb455"
+
 Username = "313a62yednbmpu2bivxkdz463xem"
 date = input("Enter a date you feel like travelling into! Type in YYYY-MM-DD format :)")
 response = requests.get(url=f"https://www.billboard.com/charts/hot-100/{date}")
